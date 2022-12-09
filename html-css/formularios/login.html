@@ -18,7 +18,7 @@
                 <fieldset>
                     <legend>Dados pessoais</legend>
                     <label for="user-name">Nome: </label>
-                    <input type="text" id="user-name" name="name"><br>
+                    <input type="text" id="user-name" name="name" required><br>
                     <label for="password">Senha: </label>
                     <input type="password" id="password">
                 </fieldset>
@@ -60,6 +60,11 @@
                     <input type="radio" id="rred" name="colors" checked>
                     <label for="rred">Vermelho</label>
                 </fieldset>
+                <br>
+
+                <label for="volume">Volume</label>
+                <input type="range" name="" id="volume" min="0" max="50" step="10" value="0">
+                <br><br>
 
                 <label for="review">Deixe seu comentário: </label><br>
                 <textarea name="" id="review" cols="30" rows="10"></textarea><br>
