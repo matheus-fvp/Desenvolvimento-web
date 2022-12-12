@@ -18,14 +18,14 @@
                 <fieldset>
                     <legend>Dados pessoais</legend>
                     <label for="user-name">Nome: </label>
-                    <input type="text" id="user-name" name="name" required><br>
+                    <input type="text" id="user-name" name="name" placeholder="informe seu nome" required><br>
                     <label for="password">Senha: </label>
-                    <input type="password" id="password">
+                    <input type="password" id="password" autofocus>
                 </fieldset>
                 <fieldset>
                     <legend>Endereço</legend>
                     <label for="street">Rua: </label>
-                    <input type="text" id="rua"><br>
+                    <input type="text" id="rua" minlength="2" maxlength="5" size="30"><br>
                     <label for="number">Número: </label>
                     <input type="number" id="number">
                 </fieldset>
