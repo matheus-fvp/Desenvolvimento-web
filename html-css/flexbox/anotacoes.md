@@ -39,7 +39,14 @@ com alguma definição.
 - **space-evenly**: agrupa os elementos ao centro deixando um espaço entre eles.
 - **center**: agrupa todos os elementos ao centro sem deixar espaços entre eles.
 - **start**: agrupa os elementos ao inicio do container pai. é o padrão.
-- **end**: agrupa os elementos ao fim do container pai.  
+- **end**: agrupa os elementos ao fim do container pai. 
+
+### Gap
+- aplica um espaçamento entre os elementos
+
+### Align items
+### Flex Wrap
+- joga os elementos para baixo quando não há mais espaço na linha.
 
 
 
