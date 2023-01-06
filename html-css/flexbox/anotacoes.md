@@ -20,5 +20,30 @@ Exemplo de tags inline: a, span, input, label, img, sub, textarea, etc
 em **coluna**.
 - O flexbox é aplicado sobre o **container pai** e os seus filhos se tornam **flex item**.
 
+### Aula 02
+
+### Flex direction
+- propriedade que altera a direção na qual os itens são dispostos
+dentro de um elemento que possui display flex.
+- Por padrão o valor de flex-direction é **row**.
+- **row**: dispõe os elementos em linha 
+- **row-reverse**: dispoem os elementos em linha e de forma inversa.
+- 
+
+
+### Justify content
+- propriedade que distribui os elementos filhos dentro de um container que possui a propriedade display como flex de acordo
+com alguma definição.
+- **space-around**: distribui os espaços vazios de forma igualitária entre os elementos filhos.
+- **space-between**: distribui de forma a separar os elementos
+- **space-evenly**: agrupa os elementos ao centro deixando um espaço entre eles.
+- **center**: agrupa todos os elementos ao centro sem deixar espaços entre eles.
+- **start**: agrupa os elementos ao inicio do container pai. é o padrão.
+- **end**: agrupa os elementos ao fim do container pai.  
+
+
+
+
+
 
 
