@@ -5,4 +5,5 @@ body {
     background-size: 200px; /*define um tamanho para a imagem de fundo*/
     background-repeat: no-repeat; /*controla a repetição da imagem*/
     background-position: center top; /*muda a posição da imagem de fundo (x, y)*/
+    background-attachment: fixed; /*a imagem não se desloca ao mover o scroll*/
 }
