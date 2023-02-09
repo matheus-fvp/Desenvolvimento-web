@@ -1,9 +1,14 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url('./img/cachorro.jpg'); /*definindo imagem de fundo*/
-    background-size: 200px; /*define um tamanho para a imagem de fundo*/
-    background-repeat: no-repeat; /*controla a repetição da imagem*/
-    background-position: center top; /*muda a posição da imagem de fundo (x, y)*/
-    background-attachment: fixed; /*a imagem não se desloca ao mover o scroll*/
+    /*background-color: brown;
+    /*background-image: url('./img/cachorro.jpg'); /*definindo imagem de fundo*/
+    /*background-repeat: no-repeat; /*controla a repetição da imagem*/
+    /*background-attachment: fixed; /*a imagem não se desloca ao mover o scroll*/
+    /*background-position: center top; /*muda a posição da imagem de fundo (x, y)*/
+    /*background-size: 200px; /*define um tamanho para a imagem de fundo*/
+
+
+    /*shorthand*/
+    background: brown url('./img/cachorro.jpg') no-repeat fixed center top / 200px;
 }
