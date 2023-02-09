@@ -1,3 +1,8 @@
 body {
+    width: 100vw;
+    height: 100vh;
     background-image: url('./img/cachorro.jpg'); /*definindo imagem de fundo*/
+    background-size: 200px; /*define um tamanho para a imagem de fundo*/
+    background-repeat: no-repeat; /*controla a repetição da imagem*/
+    background-position: center top; /*muda a posição da imagem de fundo (x, y)*/
 }
