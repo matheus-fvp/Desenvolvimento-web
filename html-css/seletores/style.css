@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(121, 121, 242);
+}
+
+.cores {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cores div {
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+
+}
+
+.textual {
+    background-color: brown; /*definindo a cor de fundo de forma textual*/
+}
+
+.rgb {
+    background-color: rgb(165, 42, 42); /*definindo a cor de fundo usando rgb*/
+}
+
+.rgba {
+    background-color: rgb(165, 42, 42, .7); /*usando o alpha para definir a transparencia*/
+}
+
+.hex {
+    background-color: #a52a2a; /*definindo a cor de fundo usando hexadecimal*/
+}
+
+.hex-alpha {
+    background-color: #a52a2a89; /*usando o alpha para definir a trasparencia*/  
+}
+
+.hsl {
+    background-color: hsl(0, 59%, 40%); /*definindo cores com hsl*/
+}
+
+
