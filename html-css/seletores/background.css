@@ -10,5 +10,7 @@ body {
 
 
     /*shorthand*/
-    background: brown url('./img/cachorro.jpg') no-repeat fixed center top / 200px;
+    /*background: brown url('./img/cachorro.jpg') no-repeat fixed center top / 200px;*/
+
+    background-image: linear-gradient(to right, blue 80%, green, red);
 }
