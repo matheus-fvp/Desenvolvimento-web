@@ -29,6 +29,14 @@ header {
 }
 
 
+/**/
+.texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /*breakpoints*/
 
 @media(max-width: 1300px) {
@@ -56,6 +64,10 @@ header {
         flex-wrap: wrap;
         row-gap: 8px;
     }
+
+    .texts {
+        flex-wrap: wrap;
+    }
 }
 
 @media(max-width: 576px) {
@@ -67,6 +79,11 @@ header {
         flex-direction: column;
         align-items: center;
         row-gap: 15px;
+    }
+
+    .texts {
+        flex-direction: column;
+        align-items: center;
     }
 
 }
