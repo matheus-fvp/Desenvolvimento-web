@@ -1,7 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     max-width: 1200px; /*define o comprimento maximo do container*/
     margin: 0 auto;
 }
+
+/*header*/
+
+header {
+    background-color: black;
+    color: white;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-menu li {
+    font-size: 20px;
+}
+
 
 /*breakpoints*/
 
@@ -24,6 +50,10 @@
 
     .img {
         width: 100%;
+    }
+
+    .nav-menu {
+        flex-wrap: wrap;
     }
 }
 
