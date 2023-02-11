@@ -1,0 +1,35 @@
+.container {
+    max-width: 1200px; /*define o comprimento maximo do container*/
+    margin: 0 auto;
+}
+
+/*breakpoints*/
+
+@media(max-width: 1300px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 700px;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 576px) {
+    .container {
+        padding: 0 5px;
+    }
+
+}
