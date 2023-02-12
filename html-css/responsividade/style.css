@@ -104,7 +104,8 @@ header {
     }
 
     .cards {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(200px, 300px);
+        justify-content: center;
     }
 
 }
